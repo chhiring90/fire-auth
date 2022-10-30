@@ -64,4 +64,4 @@ typings/
 *.tsbuildinfo
 
 firebase-config.json
-package-lock.json
+/package-lock.json

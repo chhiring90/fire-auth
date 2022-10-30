@@ -32,8 +32,8 @@ export class UserController {
       },
     },
   })
-  async findAll(
-    @inject(SecurityBindings.USER)
+  async findMe(
+    @inject(SecurityBindings.USER, {optional: true})
     currentUserProfile: SessionUserProfile,
   ): Promise<any> {
     return currentUserProfile;

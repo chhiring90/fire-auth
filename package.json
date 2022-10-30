@@ -40,7 +40,7 @@
     "type": "git",
     "url": ""
   },
-  "author": "chhiring <chhiring@supremeitsolutions.com>",
+  "author": "chhiring <cgtamang90@gmail.com>",
   "license": "",
   "files": [
     "README.md",
@@ -57,6 +57,7 @@
     "@loopback/rest": "^12.0.0",
     "@loopback/rest-explorer": "^5.0.0",
     "@loopback/service-proxy": "^5.0.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "firebase": "^9.13.0",
     "firebase-admin": "^11.2.0",
